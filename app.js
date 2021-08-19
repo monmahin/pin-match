@@ -15,7 +15,7 @@ function updateIphoneNumber(product, isIncrease, total, price) {
     // calculate total price
     calculateTotal()
 }
-// calculate product price
+// calculate product price 
 function calculateTotal() {
     const phoneTotalText = document.getElementById('phone-total');
     const phoneTotal = parseInt(phoneTotalText.innerText);
